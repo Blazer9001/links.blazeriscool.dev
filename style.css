@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    font-family: "Franklin Gothic Medium";
+}
+
+/* Style for the navigation menu */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the main content */
+main {
+    padding: 2rem;
+    text-align: center;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    font-family: "Franklin Gothic Medium";
+}
+
+main a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main .bongos {
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+
+/* Style for fonts */
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url("assets/fonts/franklingothic.ttf");
+}
+
+@font-face {
+    font-family: "Franklin Gothic Regular";
+    src: url("assets/fonts/franklingothicregular.ttf");
+}
